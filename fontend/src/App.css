@@ -1,0 +1,9 @@
+.Khung {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(#44b3d4, #9198e5);
+  flex: 1;
+  height: 100vh;
+  flex-direction: column;
+}

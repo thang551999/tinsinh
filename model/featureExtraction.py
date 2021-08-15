@@ -36,7 +36,7 @@ def getSampleSequenceFile(inSeqFile, aaLabel):
                     continue
 
                 for i in range(len(sequence)):
-                    if sequence[i] == aaLabel:
+                    if sequence[i] == aaLabel and i == 13:
                         if i < 13 and i < len(sequence)-13:
                             seq = 'X'*(13-i) + sequence[:i] + sequence[i: i+13+1]
                         elif i > len(sequence)-13 and i>13:
